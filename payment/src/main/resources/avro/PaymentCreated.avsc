@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "name": "PaymentCreatedEvent",
+    "namespace": "br.com.ecommerce.payment.event",
+    "fields": [
+        {
+            "name": "checkoutCode",
+            "type": ["string", "null"]
+        },
+        {
+            "name": "checkoutStatus",
+            "type": ["string"]
+        },
+        {
+         "name": "paymentCode",
+         "type": ["string"]
+        }
+    ]
+}
